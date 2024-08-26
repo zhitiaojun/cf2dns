@@ -6,6 +6,7 @@ on:
       - master
   schedule:
     - cron: '*/16 * * * *'
+  workflow_dispatch: # 手动触发
 
 env:
   UPDATE_IPV4: true
