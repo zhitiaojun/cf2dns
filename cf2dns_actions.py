@@ -32,7 +32,7 @@ TTL = 600
 if len(sys.argv) >= 2:
     RECORD_TYPE = sys.argv[1]
 else:
-    RECORD_TYPE = "A,AAAA"
+    RECORD_TYPE = "A"
 
 
 def get_optimization_ip():
